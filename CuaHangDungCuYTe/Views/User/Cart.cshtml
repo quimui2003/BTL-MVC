@@ -1,0 +1,29 @@
+﻿@using CuaHangDungCuYTe.Models;
+
+@{
+    var cart = Session["cartSession"] as List<Product>;
+}
+
+<div class="cart-items-container">
+    <h2>Giỏ hàng</h2>
+    @if (cart != null && cart.Count > 0)
+    {
+        foreach (var item in cart)
+        {
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="@item.productImage" alt="sp">
+                <div class="content">
+                    <h3>@item.productName</h3>
+                    <div class="price">@item.donGia</div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Bạn chưa có mặt hàng nào trong giỏ hàng!</p>
+    }
+
+    <a href="#" class="btn">checkout now</a>
+</div>

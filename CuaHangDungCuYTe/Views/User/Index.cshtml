@@ -1,0 +1,237 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shares/_LayoutUser.cshtml";
+}
+
+<!-- Home -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>abcd efgh iklmn</h3>
+        <p>qwertyuiop 12345 asdfghjkl 67890 zxcvbnm hfisfsid jfgwgfisd yfyfg.</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <h1 class="heading"><span>about</span> us </h1>
+    <div class="row">
+        <div class="image">
+            <img src="~/Images/logoytemt.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>gfhusghagdsfsgfu</h3>
+            <p>habfegwagfuegwug fuewg fefvdudsgvcg cvshgvdv yFW VQG DCytdjhdEGYWRBY33HBYG3HBY IGuiiebieteke wfbdhsgcdsvhjabu gfbjbeuafsdbilnfd</p>
+            <p>ohqywqwe jgv tywvd hwt fiweg8783883y23u ihdbyu wabsagbhag uydadbh sabhbsab hjda</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+
+<!-- Menu -->
+<section class="menu" id="menu">
+    <h1 class="heading"> our <span>products</span> </h1>
+    <div class="box-container">
+        @foreach (var item in Model)
+        {
+            <div class="box">
+                <div class="image">
+                    <img src="~/Images/@item.productImage" alt="anh">
+                </div>
+                <h3>@item.productName</h3>
+                <div class="price">@item.donGia</div>
+                <a href="javascript:void(0);" class="btn add-to-cart" data-product-id="@item.productId">add to cart</a>
+            </div>
+        }
+    </div>
+</section>
+
+<!-- Products -->
+@*<section class="products" id="products">
+        <h1 class="heading"> our <span>products</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="bangcuonyte.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="bangdinh.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="khautrangyte.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+<!-- Review -->
+<section class="review" id="review">
+    <h1 class="heading"> customer's <span>review</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>gwfghjdjajb jhfjagwjasguy hsa hgduyt8qwg hgfyuwagagy hjgfaggayu gfduyaaw hwgfag gwfg gwfauguwqtuwqvuqfw</p>
+            <img src="ketoconazole.png" alt="" class="user">
+            <h3>join deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>gwfghjdjajb jhfjagwjasguy hsa hgduyt8qwg hgfyuwagagy hjgfaggayu gfduyaaw hwgfag gwfg gwfauguwqtuwqvuqfw</p>
+            <img src="khautrangyte.jpg" alt="" class="user">
+            <h3>join deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>gwfghjdjajb jhfjagwjasguy hsa hgduyt8qwg hgfyuwagagy hjgfaggayu gfduyaaw hwgfag gwfg gwfauguwqtuwqvuqfw</p>
+            <img src="bangcuonyte.png" alt="" class="user">
+            <h3>join deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us </h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.0233061635536!2d105.64381770000003!3d10.419723500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a64d83b2792df%3A0x17bca5e601420f5a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkOG7k25nIFRow6Fw!5e0!3m2!1svi!2s!4v1721894650781!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" name="" id="" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" name="" id="" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" name="" id="" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+    </div>
+</section>
+
+<!-- Blogs -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="ketoconazole.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 25th may, 2024</span>
+                <p>asdhas hjDHGGA HGFAYGFHE hh hbdh igaif ehfiuhaiwu hwiuf. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="ketoconazole.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 25th may, 2024</span>
+                <p>asdhas hjDHGGA HGFAYGFHE hh hbdh igaif ehfiuhaiwu hwiuf. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="ketoconazole.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 25th may, 2024</span>
+                <p>asdhas hjDHGGA HGFAYGFHE hh hbdh igaif ehfiuhaiwu hwiuf. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
