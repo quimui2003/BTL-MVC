@@ -3,28 +3,47 @@
   "WorkspaceRootPath": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\user\\displaycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\user\\displaycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\Webbookshop\\Webbookshop\\Areas\\Admin\\Controllers\\QLSachAdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\login\\logged.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\login\\logged.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\javascripts\\userlayout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\javascripts\\userlayout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\css\\userlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\css\\userlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\userviewmodels\\loginviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\userviewmodels\\loginviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,68 +85,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserLayout.js",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "RelativeToolTip": "CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "ViewState": "AQIAADoAAAAAAAAAAAAkwEUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-31T09:28:58.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DisplayCart.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T08:28:39.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T06:58:06.987Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "LoginViewModels.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\UserViewModels\\LoginViewModels.cs",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\UserViewModels\\LoginViewModels.cs",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\UserViewModels\\LoginViewModels.cs",
+              "RelativeToolTip": "CuaHangDungCuYTe\\UserViewModels\\LoginViewModels.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:03:44.304Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAjAAAA",
+              "Title": "QLSachAdminController.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\Webbookshop\\Webbookshop\\Areas\\Admin\\Controllers\\QLSachAdminController.cs",
+              "RelativeDocumentMoniker": "..\\Webbookshop\\Webbookshop\\Areas\\Admin\\Controllers\\QLSachAdminController.cs",
+              "ToolTip": "D:\\Mui\\MVC\\Webbookshop\\Webbookshop\\Areas\\Admin\\Controllers\\QLSachAdminController.cs",
+              "RelativeToolTip": "..\\Webbookshop\\Webbookshop\\Areas\\Admin\\Controllers\\QLSachAdminController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:59:27.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\Login\\Register.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\Login\\Register.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T02:31:22.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T09:03:18.016Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserLayout.css",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "RelativeToolTip": "CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "ViewState": "AQIAAMAAAAAAAAAAAAArwMkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-30T02:24:30.538Z",
-              "EditorCaption": ""
+              "Title": "Logged.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Login\\Logged.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\Login\\Logged.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Login\\Logged.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\Login\\Logged.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T08:53:44.347Z"
             },
             {
               "$type": "Document",
@@ -137,9 +139,82 @@
               "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\UserController.cs",
               "RelativeToolTip": "CuaHangDungCuYTe\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwC0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T02:17:56.688Z",
+              "WhenOpened": "2024-08-05T08:30:48.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserLayout.js",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
+              "RelativeToolTip": "CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-05T07:20:48.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLayout.css",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\CSS\\UserLayout.css",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\CSS\\UserLayout.css",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\CSS\\UserLayout.css",
+              "RelativeToolTip": "CuaHangDungCuYTe\\CSS\\UserLayout.css",
+              "ViewState": "AQIAAJ0DAAAAAAAAAAAqwKsDAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T07:11:30.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T06:39:37.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T16:52:18.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\Login\\Login.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T16:42:21.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwE4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:40:31.486Z",
               "EditorCaption": ""
             }
           ]

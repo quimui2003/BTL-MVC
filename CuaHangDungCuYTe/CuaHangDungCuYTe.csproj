@@ -96,6 +96,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\CSSAd\Admin.css" />
+    <Content Include="Areas\Admin\JavaScriptsAd\Admin.js" />
     <Content Include="CSS\UserLayout.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\background-y-te-dao-nguoc.jpg" />
@@ -111,6 +113,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -122,14 +127,22 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\YteModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserViewModels\LoginViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Profiles.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shares\_LayoutUser.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\User\Cart.cshtml" />
     <Content Include="Views\User\DisplayCart.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Login\Logged.cshtml" />
+    <Content Include="Views\Login\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\ImagesAd\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

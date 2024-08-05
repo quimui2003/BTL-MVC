@@ -1,0 +1,10 @@
+﻿@if (Session["Login"] != null && (bool)Session["Login"] == true)
+{
+    <input type="submit" id="info-btn" value="Thông tin">
+    <input type="submit" id="logout-btn" value="Đăng xuất">
+}
+else
+{
+    <input type="submit" id="login-btn" value="Đăng nhập">
+    <input type="submit" id="register-btn" value="Đăng ký">
+}

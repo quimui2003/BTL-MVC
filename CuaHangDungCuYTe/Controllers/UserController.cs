@@ -43,6 +43,5 @@ namespace CuaHangDungCuYTe.Controllers
             var cart = Session["cartSession"] as List<Product>;
             return PartialView(cart);
         }
-
     }
 }
