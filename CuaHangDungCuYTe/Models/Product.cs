@@ -11,30 +11,34 @@ namespace CuaHangDungCuYTe.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Product()
         {
-            Orders = new HashSet<Order>();
+            OrdersCarts = new HashSet<OrdersCart>();
+            OrdersDetails = new HashSet<OrdersDetail>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int productId { get; set; }
-
         [StringLength(100)]
-        public string productName { get; set; }
-
-        public int maLoai { get; set; }
+        public string ProductId { get; set; }
 
         [StringLength(255)]
-        public string productImage { get; set; }
+        public string ProductName { get; set; }
 
-        public int? soLuong { get; set; }
+        public int Maloai { get; set; }
 
-        public double? donGia { get; set; }
+        [StringLength(255)]
+        public string ProductImage { get; set; }
+
+        public int? Soluongton { get; set; }
+
+        public double? Price { get; set; }
 
         [Column(TypeName = "text")]
-        public string moTa { get; set; }
+        public string Mota { get; set; }
 
         public virtual Loai Loai { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<OrdersCart> OrdersCarts { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<OrdersDetail> OrdersDetails { get; set; }
     }
 }

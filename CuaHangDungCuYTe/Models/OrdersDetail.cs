@@ -6,24 +6,26 @@ namespace CuaHangDungCuYTe.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class ChitietOrder
+    public partial class OrdersDetail
     {
         [Key]
         [StringLength(100)]
-        public string chiTietId { get; set; }
+        public string OrderDetailId { get; set; }
 
         [Required]
         [StringLength(100)]
-        public string orderId { get; set; }
+        public string OrderId { get; set; }
 
         [Required]
         [StringLength(100)]
-        public string email { get; set; }
+        public string ProductId { get; set; }
 
-        public double? tongGia { get; set; }
+        public int? Quantity { get; set; }
 
-        public virtual Account Account { get; set; }
+        public double? Giaban { get; set; }
 
         public virtual Order Order { get; set; }
+
+        public virtual Product Product { get; set; }
     }
 }

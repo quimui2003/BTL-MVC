@@ -1,0 +1,41 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<CuaHangDungCuYTe.Areas.Admin.AdminViewModels.ChitietHoaDonDisplayVM>
+
+@{
+    ViewBag.Title = "Chi tiết đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="order">
+    <div class="order-box">
+        <div class="order-content-box">
+            <p>CHI TIẾT ĐƠN HÀNG</p>
+            @Html.ActionLink("Quay lại", "OrdersPage", "Admin")
+            <br />
+            <table>
+                <br />
+                <thead>
+                    <tr class="head-tb">
+                        <th class="stt">ProductId</th>
+                        <th class="gm">Product's Name</th>
+                        <th>Image</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="manage">
+                            <td class="stt">@item.ProductId</td>
+                            <td class="gm">@item.ProductName</td>
+                            <td><img src="~/Images/@item.ProductImage" alt="img"></td>
+                            <td>@item.Quantity</td>
+                            <td>@item.GiaBan</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

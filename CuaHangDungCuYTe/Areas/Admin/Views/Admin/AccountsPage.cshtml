@@ -1,0 +1,62 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<Account>
+
+@{
+    ViewBag.Title = "Accounts";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="account">
+    <div class="account-box">
+        <div class="account-content-box">
+            <p>Accounts</p>
+            <br>
+            <table>
+                <thead>
+                    <tr class="head-tb">
+                        <th class="gm">Email</th>
+                        <th class="gm">Name</th>
+                        <th>Address</th>
+                        <th>Role</th>
+                        <th>Manage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="manage">
+                            <td class="gm">@item.Email</td>
+                            <td class="gm">@item.Fullname</td>
+                            <td>@item.Address</td>
+                            <td>@item.Role</td>
+                            <td class="edit">
+                                <button class="ed" onclick="updateAccountRole('@item.Email', 'Appoint')">Appoint</button>
+                                <button class="de" onclick="updateAccountRole('@item.Email', 'Dismissal')">Dismissal</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+function updateAccountRole(email, role) {
+    $.ajax({
+        url: '@Url.Action("EditAccounts", "Admin")',
+        type: 'POST',
+        data: { email: email, role: role },
+        success: function(result) {
+            if (result.success) {
+                /*alert('Order status updated');*/
+                window.location.href = '@Url.Action("AccountsPage", "Admin")';
+            } else {
+                alert(result.message);
+            }
+        },
+        error: function() {
+            alert('Error updating order status');
+        }
+    });
+}
+</script>

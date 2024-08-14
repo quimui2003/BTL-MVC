@@ -1,0 +1,114 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<Product>
+
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="product">
+    <div class="product-box">
+        <div class="product-content-box">
+            <div class="sp">
+                <p>Products</p>
+                <button id="add-pd"><span>+</span> Add Products</button>
+                <div class="add-pd">
+                    <div class="add-pd-content">
+                        <h2>ADD PRODUCTS <img src="imageBTL/x.png" alt="x" class="add-close"></h2>
+                        <form id="add-pro" action="@Url.Action("AddProducts", "Admin")" method="post" enctype="multipart/form-data">
+                            <p>Product Information</p>
+                            <label for="pd-name">Product name:</label>
+                            <input type="text" name="ProductName" placeholder="Enter product name..." id="pd-name" required>
+                            <label for="pd-quantity">Quantity:</label>
+                            <input type="text" name="Soluongton" placeholder="Enter quantity..." id="pd-quantity" required>
+                            <label for="pd-price">Price:</label>
+                            <input type="text" name="Price" placeholder="Enter price..." id="pd-price" required>
+
+                            <label for="image">Choose image:</label>
+                            <input type="file" name="fileUpload" id="image" required>
+
+                            <label for="pd-classify">Classify:</label>
+                            <select name="Maloai" id="pd-classify" required>
+                                <option value="">--Enter classify--</option>
+                                <option value="1">Vật liệu y tế tiêu hao</option>
+                                <option value="2">Dụng cụ y tế</option>
+                                <option value="3">Sinh phẩm y tế</option>
+                                <option value="4">Trang thiết bị y khoa</option>
+                            </select>
+                            <br>
+                            <label for="pd-detail">Product detail:</label>
+                            <input type="text" name="Mota" placeholder="Enter detail..." id="pd-detail" required>
+
+                            <input type="submit" class="addpro" name="ok" value="OK">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="edit-pd">
+                    <div class="edit-pd-content">
+                        <h2>UPDATE PRODUCTS <img src="imageBTL/x.png" alt="x" class="edit-close"></h2>
+                        <form id="edit-pro" action="@Url.Action("EditProducts", "Admin")" method="post" enctype="multipart/form-data">
+                            <p>Product Information</p>
+                            <input type="hidden" name="ProductId" placeholder="Enter product id..." id="up-pd-id"> <!--disabled-->
+                            <label for="up-pd-name">Product name:</label>
+                            <input type="text" name="ProductName" placeholder="Enter product name..." id="up-pd-name" required>
+                            <label for="up-pd-quantity">Quantity:</label>
+                            <input type="text" name="Soluongton" placeholder="Enter quantity..." id="up-pd-quantity" required>
+                            <label for="up-pd-price">Price:</label>
+                            <input type="text" name="Price" placeholder="Enter price..." id="up-pd-price" required>
+
+                            <input type="hidden" name="ImageOld" id="img-old">
+                            <label for="up-image">Choose image:</label>
+                            <input type="file" name="fileUpload" id="up-image">
+
+                            <label for="up-pd-classify">Classify:</label>
+                            <select name="Maloai" id="up-pd-classify" required>
+                                <option value="">--Enter classify--</option>
+                                <option value="1">Vật liệu y tế tiêu hao</option>
+                                <option value="2">Dụng cụ y tế</option>
+                                <option value="3">Sinh phẩm y tế</option>
+                                <option value="4">Trang thiết bị y khoa</option>
+                            </select>
+                            <br>
+                            <label for="up-pd-detail">Product detail:</label>
+                            <input type="text" name="Mota" placeholder="Enter detail..." id="up-pd-detail" required>
+
+                            <input type="submit" class="editpro" name="update" value="UPDATE">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <table>
+                <thead>
+                    <tr class="head-tb">
+                        <th class="stt">ProductId</th>
+                        <th class="gm">Product's Name</th>
+                        <th>Image</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Manage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model) 
+                    {
+                        <tr class="manage">
+                            <td class="stt">@item.ProductId</td>
+                            <td class="gm">@item.ProductName</td>
+                            <td><img src="~/Images/@item.ProductImage" alt="img"></td>
+                            <td>@item.Soluongton</td>
+                            <td>@item.Price</td>
+                            <td class="edit">
+                                <form action="@Url.Action("DeleteProducts", "Admin", new {id = item.ProductId})" method="get">
+                                    <input class="ed" type="button" name="editpd" value="Edit" onclick="editProduct('@item.ProductId','@item.ProductName', '@item.ProductImage', '@item.Soluongton', '@item.Price', '@item.Maloai', '@item.Mota')">
+                                    <input class="de" type="submit" name="del" value="Delete">
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -11,21 +11,26 @@ namespace CuaHangDungCuYTe.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Order()
         {
-            ChitietOrders = new HashSet<ChitietOrder>();
+            OrdersDetails = new HashSet<OrdersDetail>();
         }
 
         [StringLength(100)]
-        public string orderId { get; set; }
+        public string OrderId { get; set; }
 
-        public int productId { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string Email { get; set; }
 
-        public int? soLuongBan { get; set; }
+        public DateTime? OrderDate { get; set; }
 
-        public double? giaBan { get; set; }
+        public double? TotalPrice { get; set; }
+
+        [StringLength(50)]
+        public string status { get; set; }
+
+        public virtual Account Account { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ChitietOrder> ChitietOrders { get; set; }
-
-        public virtual Product Product { get; set; }
+        public virtual ICollection<OrdersDetail> OrdersDetails { get; set; }
     }
 }

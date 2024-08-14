@@ -11,27 +11,37 @@ namespace CuaHangDungCuYTe.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Account()
         {
-            ChitietOrders = new HashSet<ChitietOrder>();
+            Orders = new HashSet<Order>();
+            OrdersCarts = new HashSet<OrdersCart>();
         }
 
         [Key]
-        [StringLength(100)]
-        public string email { get; set; }
+        [StringLength(255)]
+        public string Email { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string passWord { get; set; }
+        [StringLength(100)]
+        public string Password { get; set; }
 
-        [StringLength(200)]
-        public string fullName { get; set; }
+        [StringLength(255)]
+        public string Fullname { get; set; }
+
+        [StringLength(255)]
+        public string Avatar { get; set; }
 
         [StringLength(12)]
-        public string sdt { get; set; }
+        public string Sdt { get; set; }
+
+        [StringLength(255)]
+        public string Address { get; set; }
 
         [StringLength(10)]
-        public string role { get; set; }
+        public string Role { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ChitietOrder> ChitietOrders { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<OrdersCart> OrdersCarts { get; set; }
     }
 }

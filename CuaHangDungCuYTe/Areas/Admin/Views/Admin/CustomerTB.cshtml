@@ -1,0 +1,37 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<Account>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Areas/Admin/CSSAd/Admin.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content-box">
+        <p>Customers <span>View All</span></p>
+        <br>
+        <table>
+            <tr>
+                <th>Avatar</th>
+                <th>Email</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>~/Images/@item.Avatar</td>
+                    <td>@item.Email</td>
+                    <td>@item.Fullname</td>
+                    <td>@item.Sdt</td>
+                    <td>@item.Address</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

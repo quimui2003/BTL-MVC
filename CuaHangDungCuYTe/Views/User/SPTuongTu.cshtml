@@ -1,0 +1,21 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<Product>
+
+<!--Sản phẩm tương tự-->
+<div class="sptt">
+    <h2>Sản phẩm tương tự</h2>
+    <div class="sptt-content">
+        @foreach(var item in Model)
+        {
+            <div class="sptt-content-box">
+                <a href="@Url.Action("ProductsDetails", "User", new { id = item.ProductId})">
+                    <img src="~/Images/@item.ProductImage" alt="sptt">
+                    <div class="sptt-nd">
+                        <p>Tên: @item.ProductName</p>
+                        <p>Giá: <span class="price">@item.Price VNĐ</span></p>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

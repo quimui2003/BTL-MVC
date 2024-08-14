@@ -1,0 +1,37 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<CuaHangDungCuYTe.Areas.Admin.AdminViewModels.HoaDonDisplayVM>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Areas/Admin/CSSAd/Admin.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content-box">
+        <p>Orders <span>View All</span></p>
+        <br>
+        <table>
+            <tr>
+                <th>OrderId</th>
+                <th>Customer Name</th>
+                <th>Order Date</th>
+                <th>Total</th>
+                <th>Status</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.OrderId</td>
+                    <td>@item.Fullname</td>
+                    <td>@item.OrderDate</td>
+                    <td>@item.TotalPrice VNĐ</td>
+                    <td>@item.status</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

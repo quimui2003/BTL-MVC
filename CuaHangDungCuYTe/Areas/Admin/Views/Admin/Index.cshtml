@@ -1,0 +1,93 @@
+﻿@using CuaHangDungCuYTe.Models;
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-div-3">
+    <div class="box">
+        <span>Total Sale</span>
+        <div class="bot">
+            <div class="left">
+                <p>@ViewBag.TotalPrice</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-div-3">
+    <a href="@Url.Action("ProductTB", "Admin")" target="iframe">
+        <div class="box">
+            <span>Products</span>
+            <div class="bot">
+                <div class="left">
+                    <p>@ViewBag.TotalProduct</p>
+                </div>
+                <div class="right">
+                    <img src="~/Images/bullet-list.png" alt="">
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="col-div-3">
+    <a href="@Url.Action("OrderTB", "Admin")" target="iframe">
+        <div class="box">
+            <span>Orders</span>
+            <div class="bot">
+                <div class="left">
+                    <p>@ViewBag.TotalOrder</p>
+                </div>
+                <div class="right">
+                    <img src="~/Images/shoppingbag.png" alt="">
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="col-div-3">
+    <a href="@Url.Action("CustomerTB", "Admin")" target="iframe">
+        <div class="box">
+            <span>Customers</span>
+            <div class="bot">
+                <div class="left">
+                    <p>@ViewBag.TotalUser</p>
+                </div>
+                <div class="right">
+                    <img src="~/Images/customers.png" alt="">
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="clearfix"></div>
+<br>
+<br>
+
+<div class="col-div-8">
+    <div class="box-8">
+        <iframe src="@Url.Action("OrderTB", "Admin")" frameborder="0" name="iframe" class="dashboard"></iframe>
+    </div>
+</div>
+<div class="col-div-4">
+    <div class="box-4">
+        <div class="content-box">
+            <p>Total Sale <span>View All</span></p>
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="mask full">
+                        <div class="fill"></div>
+                    </div>
+                    <div class="mask half">
+                        <div class="fill"></div>
+                    </div>
+                    <div class="inside-circle">70%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

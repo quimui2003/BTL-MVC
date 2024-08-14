@@ -6,6 +6,7 @@
     <title>@ViewBag.Title</title>
     <link href="~/CSS/UserLayout.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -19,9 +20,9 @@
             <a href="#home">home</a>
             <a href="#about">about</a>
             <a href="#menu">products</a>
-            <a href="#review">review</a>
+            @*<a href="#review">review</a>
             <a href="#contact">contact</a>
-            <a href="#blogs">blogs</a>
+            <a href="#blogs">blogs</a>*@
         </nav>
 
         <div class="icons">
@@ -37,14 +38,20 @@
         </div>
 
         <div class="user-menu">
-            <input type="submit" name="" id="login-btn" value="Đăng nhập">
-            <input type="submit" name="" id="register-btn" value="Đăng ký">
+            @Html.Action("Logged", "Login")
         </div>
 
         <div class="cart-items-container">
             @Html.Action("DisplayCart", "User")
         </div>
-</header>
+    </header>
+
+    <div class="wrapper">
+        @Html.Action("Login", "Login")
+    </div>
+    <div class="wrapper1">
+        @Html.Action("Register", "Login")
+    </div>
 
     <div>
         @RenderBody()

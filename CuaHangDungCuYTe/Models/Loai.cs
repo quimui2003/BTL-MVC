@@ -17,10 +17,10 @@ namespace CuaHangDungCuYTe.Models
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int maLoai { get; set; }
+        public int Maloai { get; set; }
 
         [StringLength(100)]
-        public string tenLoai { get; set; }
+        public string Tenloai { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Product> Products { get; set; }

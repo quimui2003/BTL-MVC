@@ -2,16 +2,38 @@
 @model List<Product>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Cửa hàng dụng cụ y tế";
     Layout = "~/Views/Shares/_LayoutUser.cshtml";
 }
+
+<!--Form thông tin đặt hàng-->
+<div class="pay-box">
+    <div class="pay-content">
+        <h2>THÔNG TIN ĐẶT HÀNG <img src="~/Images/x.png" alt="x" class="pay-close"></h2>
+        <form id="pay-info" action="@Url.Action("PayOrders", "User")" method="post" enctype="multipart/form-data">
+            <p>Thông tin người đặt hàng:</p>
+            <input type="hidden" name="email" id="info-email">
+            <label for="info-name">Họ tên:</label>
+            <input type="text" name="name" placeholder="Họ tên..." id="info-name">
+            <label for="info-address">Địa chỉ:</label>
+            <input type="text" name="address" placeholder="Địa chỉ..." id="info-address">
+            <label for="info-numbers">Số điện thoại:</label><div class="loi" id="sdtMessage"></div>
+            <input type="text" name="phone" placeholder="Số điện thoại..." id="info-numbers">
+
+            <input type="submit" class="pay-btn" name="pay" value="Xác nhận">
+        </form>
+    </div>
+</div>
 
 <!-- Home -->
 <section class="home" id="home">
     <div class="content">
-        <h3>abcd efgh iklmn</h3>
-        <p>qwertyuiop 12345 asdfghjkl 67890 zxcvbnm hfisfsid jfgwgfisd yfyfg.</p>
-        <a href="#" class="btn">get yours now</a>
+        <h3>DỤNG CỤ Y TẾ</h3>
+        <p>
+            Chuyên cung cấp các dụng cụ y tế phục vụ cho các quầy thuốc
+            và các bệnh viện trên toàn quốc.
+        </p>
+        <a href="#" class="btn">Mua ngay</a>
     </div>
 </section>
 
@@ -24,10 +46,20 @@
         </div>
 
         <div class="content">
-            <h3>gfhusghagdsfsgfu</h3>
-            <p>habfegwagfuegwug fuewg fefvdudsgvcg cvshgvdv yFW VQG DCytdjhdEGYWRBY33HBYG3HBY IGuiiebieteke wfbdhsgcdsvhjabu gfbjbeuafsdbilnfd</p>
-            <p>ohqywqwe jgv tywvd hwt fiweg8783883y23u ihdbyu wabsagbhag uydadbh sabhbsab hjda</p>
-            <a href="#" class="btn">learn more</a>
+            <p>
+                MT Medical là trang web chuyên cung cấp các thiết bị, dụng cụ y tế với sứ mệnh đem tới những sản
+                phẩm tốt nhất cả về chất lượng lẫn giá cả trong lĩnh vực dụng cụ y tế tế để quý khách an tâm sử dụng
+                và chăm sóc bệnh nhân. MT Medical đang ngày nhận được sự tin tưởng của quý khách hàng và khẳng định
+                được vị thế trên thị trường. Để có được thành công đó là nhờ vào đội ngũ cán bộ làm việc với tinh thần
+                trách nhiệm cao, nhiệt tình, năng động và luôn sẵn sàng lắng nghe đồng thời tiếp thu ý kiến đóng góp từ
+                khách hàng của mình nhằm mục đích phục vụ nhu cầu khách hàng một cách chuyên nghiệp nhất.
+            </p>
+            <p>
+                Dụng vụ y tế MT Medical cung cấp các trang thiết bị y khoa, y tế cho các cá nhân đến các phòng khám và
+                cả những bệnh viện lớn trên khắp cả nước. Tất cả các sản phẩm của MT Medical đều có giấy tờ xuất xứ rõ ràng,
+                nhập khẩu chính hãng từ những thương hiệu lớn khắp nơi trên thế giới.
+            </p>
+            <a href="#" class="btn">Xem thêm</a>
         </div>
     </div>
 </section>
@@ -39,12 +71,14 @@
         @foreach (var item in Model)
         {
             <div class="box">
-                <div class="image">
-                    <img src="~/Images/@item.productImage" alt="anh">
-                </div>
-                <h3>@item.productName</h3>
-                <div class="price">@item.donGia</div>
-                <a href="javascript:void(0);" class="btn add-to-cart" data-product-id="@item.productId">add to cart</a>
+                <a href="@Url.Action("ProductsDetails", "User", new { id = item.ProductId})">
+                    <div class="image">
+                        <img src="~/Images/@item.ProductImage" alt="anh">
+                    </div>
+                    <h3>@item.ProductName</h3>
+                    <div class="price">@item.Price</div>
+                </a>
+                <a href="javascript:void(0);" class="btn add-to-cart" data-product-id="@item.ProductId">add to cart</a>
             </div>
         }
     </div>
@@ -123,13 +157,13 @@
     </section>*@
 
 <!-- Review -->
-<section class="review" id="review">
+@*<section class="review" id="review">
     <h1 class="heading"> customer's <span>review</span> </h1>
     <div class="box-container">
         <div class="box">
             <img src="" alt="" class="quote">
             <p>gwfghjdjajb jhfjagwjasguy hsa hgduyt8qwg hgfyuwagagy hjgfaggayu gfduyaaw hwgfag gwfg gwfauguwqtuwqvuqfw</p>
-            <img src="ketoconazole.png" alt="" class="user">
+            <img src="~/Images/ketoconazole.png" alt="" class="user">
             <h3>join deo</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -143,7 +177,7 @@
         <div class="box">
             <img src="" alt="" class="quote">
             <p>gwfghjdjajb jhfjagwjasguy hsa hgduyt8qwg hgfyuwagagy hjgfaggayu gfduyaaw hwgfag gwfg gwfauguwqtuwqvuqfw</p>
-            <img src="khautrangyte.jpg" alt="" class="user">
+            <img src="~/Images/ketoconazole.png" alt="" class="user">
             <h3>join deo</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -157,7 +191,7 @@
         <div class="box">
             <img src="" alt="" class="quote">
             <p>gwfghjdjajb jhfjagwjasguy hsa hgduyt8qwg hgfyuwagagy hjgfaggayu gfduyaaw hwgfag gwfg gwfauguwqtuwqvuqfw</p>
-            <img src="bangcuonyte.png" alt="" class="user">
+            <img src="~/Images/bangcuonyte.png" alt="" class="user">
             <h3>join deo</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -168,14 +202,14 @@
             </div>
         </div>
     </div>
-</section>
+</section>*@
 
-<section class="contact" id="contact">
+<!--<section class="contact" id="contact">
     <h1 class="heading"> <span>contact</span> us </h1>
-    <div class="row">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.0233061635536!2d105.64381770000003!3d10.419723500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a64d83b2792df%3A0x17bca5e601420f5a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkOG7k25nIFRow6Fw!5e0!3m2!1svi!2s!4v1721894650781!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="row">-->
+        @*<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.0233061635536!2d105.64381770000003!3d10.419723500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a64d83b2792df%3A0x17bca5e601420f5a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkOG7k25nIFRow6Fw!5e0!3m2!1svi!2s!4v1721894650781!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*@
 
-        <form action="">
+        <!--<form action="">
             <h3>get in touch</h3>
             <div class="inputBox">
                 <span class="fas fa-user"></span>
@@ -192,15 +226,15 @@
             <input type="submit" value="contact now" class="btn">
         </form>
     </div>
-</section>
+</section>-->
 
 <!-- Blogs -->
-<section class="blogs" id="blogs">
+@*<section class="blogs" id="blogs">
     <h1 class="heading"> our <span>blogs</span> </h1>
     <div class="box-container">
         <div class="box">
             <div class="image">
-                <img src="ketoconazole.png" alt="">
+                <img src="~/Images/bangcuonyte.png" alt="">
             </div>
             <div class="content">
                 <a href="#" class="title">tasty and refreshing coffee</a>
@@ -212,7 +246,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="ketoconazole.png" alt="">
+                <img src="~/Images/ketoconazole.png" alt="">
             </div>
             <div class="content">
                 <a href="#" class="title">tasty and refreshing coffee</a>
@@ -224,7 +258,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="ketoconazole.png" alt="">
+                <img src="~/Images/bongyte.png" alt="">
             </div>
             <div class="content">
                 <a href="#" class="title">tasty and refreshing coffee</a>
@@ -234,4 +268,4 @@
             </div>
         </div>
     </div>
-</section>
+</section>*@

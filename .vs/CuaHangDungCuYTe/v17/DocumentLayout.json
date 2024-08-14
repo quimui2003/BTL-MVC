@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\user\\displaycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\user\\displaycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\javascripts\\userlayout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\javascripts\\userlayout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\css\\userlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\css\\userlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,79 +63,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserLayout.js",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "RelativeToolTip": "CuaHangDungCuYTe\\JavaScripts\\UserLayout.js",
-              "ViewState": "AQIAADoAAAAAAAAAAAAkwEUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-31T09:28:58.651Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T08:27:15.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DisplayCart.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T08:28:39.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\Shares\\_LayoutUser.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T06:58:06.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
               "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAjAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T02:31:22.299Z",
+              "WhenOpened": "2024-08-14T04:38:00.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:20:34.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserLayout.css",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "RelativeToolTip": "CuaHangDungCuYTe\\CSS\\UserLayout.css",
-              "ViewState": "AQIAAMAAAAAAAAAAAAArwMkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-30T02:24:30.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\UserController.cs",
               "RelativeToolTip": "CuaHangDungCuYTe\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "ViewState": "AQIAAOIAAAAAAAAAAADwv9oAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T02:17:56.688Z",
+              "WhenOpened": "2024-08-13T15:28:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:07:39.8Z",
               "EditorCaption": ""
             }
           ]

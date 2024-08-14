@@ -13,33 +13,31 @@ namespace CuaHangDungCuYTe.Models
         }
 
         public virtual DbSet<Account> Accounts { get; set; }
-        public virtual DbSet<ChitietOrder> ChitietOrders { get; set; }
         public virtual DbSet<Loai> Loais { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrdersCart> OrdersCarts { get; set; }
+        public virtual DbSet<OrdersDetail> OrdersDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Account>()
-                .Property(e => e.sdt)
+                .Property(e => e.Sdt)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Account>()
-                .Property(e => e.role)
+                .Property(e => e.Role)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Account>()
-                .HasMany(e => e.ChitietOrders)
+                .HasMany(e => e.Orders)
                 .WithRequired(e => e.Account)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<ChitietOrder>()
-                .Property(e => e.chiTietId)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<ChitietOrder>()
-                .Property(e => e.orderId)
-                .IsUnicode(false);
+            modelBuilder.Entity<Account>()
+                .HasMany(e => e.OrdersCarts)
+                .WithRequired(e => e.Account)
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Loai>()
                 .HasMany(e => e.Products)
@@ -47,20 +45,49 @@ namespace CuaHangDungCuYTe.Models
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Order>()
-                .Property(e => e.orderId)
+                .Property(e => e.OrderId)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Order>()
-                .HasMany(e => e.ChitietOrders)
+                .Property(e => e.status)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Order>()
+                .HasMany(e => e.OrdersDetails)
                 .WithRequired(e => e.Order)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<Product>()
-                .Property(e => e.moTa)
+            modelBuilder.Entity<OrdersCart>()
+                .Property(e => e.ProductId)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<OrdersDetail>()
+                .Property(e => e.OrderDetailId)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<OrdersDetail>()
+                .Property(e => e.OrderId)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<OrdersDetail>()
+                .Property(e => e.ProductId)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Product>()
-                .HasMany(e => e.Orders)
+                .Property(e => e.ProductId)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Product>()
+                .Property(e => e.Mota)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Product>()
+                .HasMany(e => e.OrdersCarts)
+                .WithRequired(e => e.Product)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Product>()
+                .HasMany(e => e.OrdersDetails)
                 .WithRequired(e => e.Product)
                 .WillCascadeOnDelete(false);
         }
