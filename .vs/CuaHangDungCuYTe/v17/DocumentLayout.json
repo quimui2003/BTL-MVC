@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Views\\User\\Cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DonHang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Views\\User\\DonHang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Views\\User\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\ProductsDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Views\\User\\ProductsDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\SPTuongTu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuaHangDungCuYTe\\Views\\User\\SPTuongTu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,97 +42,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:59.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SPTuongTu.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\SPTuongTu.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\SPTuongTu.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\SPTuongTu.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\SPTuongTu.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:16.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductsDetails.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\ProductsDetails.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\ProductsDetails.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\ProductsDetails.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\ProductsDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:14.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:14.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DonHang.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DonHang.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\DonHang.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DonHang.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\DonHang.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:14.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DisplayCart.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\DisplayCart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:13.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Cart.cshtml",
-              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Views\\User\\Cart.cshtml",
-              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Views\\User\\Cart.cshtml",
-              "RelativeToolTip": "CuaHangDungCuYTe\\Views\\User\\Cart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T10:39:13.335Z",
-              "EditorCaption": ""
             }
           ]
         },
