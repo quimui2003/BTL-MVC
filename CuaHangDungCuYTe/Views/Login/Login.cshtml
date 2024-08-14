@@ -1,0 +1,75 @@
+﻿<div class="login_box">
+    <div class="close-login">X</div>
+    <div class="login-header">
+        <span>Login</span>
+    </div>
+    <form id="loginForm">
+        <div class="input_box">
+<<<<<<< HEAD
+            <input type="text" id="userLogin" class="input-field" required>
+            <label for="userLogin" class="label">Email</label>
+            <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" id="passLogin" class="input-field" required>
+            <label for="passLogin" class="label">Mật khẩu</label>
+=======
+            <input type="text" id="user" class="input-field" required>
+            <label for="user" class="label">Email</label>
+            <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" id="pass" class="input-field" required>
+            <label for="pass" class="label">Mật khẩu</label>
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+            <i class="bx bx-lock-alt icon"></i>
+        </div>
+        <div class="error-login" id="error-login"></div>
+        <div class="remember-forgot">
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Nhớ mật khẩu</label>
+            </div>
+            <div class="forgot">
+                <span id="forgot-btn">Quên mật khẩu?</span>
+                <span id="register">Đăng ký</span>
+            </div>
+        </div>
+        <div class="input_box">
+            <input type="submit" class="input-submit" value="Đăng nhập">
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#loginForm').submit(function (event) {
+            event.preventDefault();
+<<<<<<< HEAD
+            var email = $('#userLogin').val();
+            var password = $('#passLogin').val();
+=======
+            var email = $('#user').val();
+            var password = $('#pass').val();
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+            $.ajax({
+                url: '@Url.Action("XuLyLogin", "Login")',
+                type: 'POST',
+                data: {
+                    email: email,
+                    passWord: password
+                },
+                success: function (result) {
+                    if (result.success) {
+                        window.location.href = result.redirectUrl;
+                    } else {
+                        $('#error-login').text(result.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    $('#error-login').text('Đã xảy ra lỗi, vui lòng thử lại.');
+                }
+            });
+        });
+    });
+</script>

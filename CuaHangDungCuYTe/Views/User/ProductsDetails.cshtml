@@ -1,0 +1,30 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model Product
+
+@{
+    ViewBag.Title = "ProductsDetails";
+    Layout = "~/Views/Shares/_LayoutUser.cshtml";
+}
+
+<div class="sp">
+    <div class="sp-left">
+        <img src="~/Images/@Model.ProductImage" alt="anh">
+    </div>
+    <div class="sp-right">
+        <h2>CHI TIẾT SẢN PHẨM</h2>
+        <div class="sanpham">
+            <p>Tên sản phẩm: @Model.ProductName</p>
+            <p>Phân loại: @ViewBag.TenLoai</p>
+            <p>Số lượng: @Model.Soluongton</p>
+            <p>Giá: <span class="price">@Model.Price VNĐ</span></p>
+            <a href="javascript:void(0);" class="btn add-to-cart" data-product-id="@Model.ProductId">add to cart</a>
+
+            <div class="info">
+                <h3>THÔNG TIN SẢN PHẨM</h3>
+                <p>@Model.Mota</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Action("SPTuongTu", "User", new { mloai = Model.Maloai})

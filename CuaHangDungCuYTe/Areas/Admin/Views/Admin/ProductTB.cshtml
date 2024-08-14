@@ -1,0 +1,37 @@
+﻿@using CuaHangDungCuYTe.Models;
+@model List<Product>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Areas/Admin/CSSAd/Admin.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content-box">
+        <p>Products <span>View All</span></p>
+        <br>
+        <table>
+            <tr>
+                <th>ProductId</th>
+                <th>Product's Name</th>
+                <th>Image</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductId</td>
+                    <td>@item.ProductName</td>
+                    <td><img src="~/Images/@item.ProductImage" alt="anh"></td>
+                    <td>@item.Soluongton</td>
+                    <td>@item.Price VNĐ</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

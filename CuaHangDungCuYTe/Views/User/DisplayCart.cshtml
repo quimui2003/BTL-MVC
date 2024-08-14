@@ -1,0 +1,27 @@
+﻿@using CuaHangDungCuYTe.Models;
+@using CuaHangDungCuYTe.UserViewModels;
+@model List<CartItem>
+
+<div id="cart-content">
+    <h2>Giỏ hàng</h2>
+    @if (Model != null && Model.Count > 0)
+    {
+        foreach (var item in Model)
+        {
+            <div class="cart-item">
+                <button class="xoa-cartitem" data-product-id="@item.Product.ProductId"><span class="fas fa-times"></span></button>
+                <img src="~/Images/@item.Product.ProductImage" alt="sp">
+                <div class="content">
+                    <h3>@item.Product.ProductName</h3>
+                    <div class="price">@item.Product.Price</div>
+                    <div class="quantity">Số lượng: @item.Quantity</div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Bạn chưa có mặt hàng nào trong giỏ hàng!</p>
+    }
+    <button id="checkOrder" class="btn">checkout now</button>
+</div>

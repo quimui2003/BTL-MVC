@@ -1,0 +1,182 @@
+<<<<<<< HEAD
+﻿@using CuaHangDungCuYTe.Models;
+
+=======
+﻿
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-div-3">
+    <div class="box">
+        <span>Total Sale</span>
+        <div class="bot">
+            <div class="left">
+<<<<<<< HEAD
+                <p>@ViewBag.TotalPrice</p>
+=======
+                <?php
+                require 'Connect.php';
+                $sql = "SELECT SUM(`total`) AS tonggia FROM `order` WHERE `order`.`status` = 'Approved'";
+                $result = $conn->query($sql);
+                while($row = $result->fetch_assoc()){
+
+                ?>
+                <p><?php echo number_format($row['tonggia'], 0, '.', ',')?></p>
+                <?php
+                break;
+                }
+                ?>
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-div-3">
+<<<<<<< HEAD
+    <a href="@Url.Action("ProductTB", "Admin")" target="iframe">
+=======
+    <a href="Products_tb.php" target="iframe">
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+        <div class="box">
+            <span>Products</span>
+            <div class="bot">
+                <div class="left">
+<<<<<<< HEAD
+                    <p>@ViewBag.TotalProduct</p>
+                </div>
+                <div class="right">
+                    <img src="~/Images/bullet-list.png" alt="">
+=======
+                    <?php
+                    require 'Connect.php';
+                    $sql = "SELECT SUM(`quantity`) AS tongsp FROM `product`";
+                    $result = $conn->query($sql);
+                    while($row = $result->fetch_assoc()){
+
+                    ?>
+                    <p><?php echo number_format($row['tongsp'], 0, '.', ',')?></p>
+                    <?php
+                    break;
+                    }
+                    ?>
+                </div>
+                <div class="right">
+                    <img src="imageBTL/bullet-list.png" alt="">
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="col-div-3">
+<<<<<<< HEAD
+    <a href="@Url.Action("OrderTB", "Admin")" target="iframe">
+=======
+    <a href="Orders_tb.php" target="iframe">
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+        <div class="box">
+            <span>Orders</span>
+            <div class="bot">
+                <div class="left">
+<<<<<<< HEAD
+                    <p>@ViewBag.TotalOrder</p>
+                </div>
+                <div class="right">
+                    <img src="~/Images/shoppingbag.png" alt="">
+=======
+                    <?php
+                    require 'Connect.php';
+                    $sql = "SELECT COUNT(*) AS tongdh FROM `order` WHERE `order`.`status` = 'Approved'";
+                    $result = $conn->query($sql);
+                    while($row = $result->fetch_assoc()){
+
+                    ?>
+                    <p><?php echo number_format($row['tongdh'], 0, '.', ',')?></p>
+                    <?php
+                    break;
+                    }
+                    ?>
+                </div>
+                <div class="right">
+                    <img src="imageBTL/shoppingbag.png" alt="">
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="col-div-3">
+<<<<<<< HEAD
+    <a href="@Url.Action("CustomerTB", "Admin")" target="iframe">
+=======
+    <a href="Customers_tb.php" target="iframe">
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+        <div class="box">
+            <span>Customers</span>
+            <div class="bot">
+                <div class="left">
+<<<<<<< HEAD
+                    <p>@ViewBag.TotalUser</p>
+                </div>
+                <div class="right">
+                    <img src="~/Images/customers.png" alt="">
+=======
+                    <?php
+                    require 'Connect.php';
+                    $sql = "SELECT COUNT(*) AS tongtk FROM `login` WHERE `login`.`role` = 'user'";
+                    $result = $conn->query($sql);
+                    while($row = $result->fetch_assoc()){
+
+                    ?>
+                    <p><?php echo number_format($row['tongtk'], 0, '.', ',')?></p>
+                    <?php
+                    break;
+                    }
+                    ?>
+                </div>
+                <div class="right">
+                    <img src="imageBTL/customers.png" alt="">
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="clearfix"></div>
+<br>
+<br>
+
+<div class="col-div-8">
+    <div class="box-8">
+<<<<<<< HEAD
+        <iframe src="@Url.Action("OrderTB", "Admin")" frameborder="0" name="iframe" class="dashboard"></iframe>
+=======
+        <iframe src="Products_tb.php" frameborder="0" name="iframe" class="dashboard"></iframe>
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
+    </div>
+</div>
+<div class="col-div-4">
+    <div class="box-4">
+        <div class="content-box">
+            <p>Total Sale <span>View All</span></p>
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="mask full">
+                        <div class="fill"></div>
+                    </div>
+                    <div class="mask half">
+                        <div class="fill"></div>
+                    </div>
+                    <div class="inside-circle">70%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
