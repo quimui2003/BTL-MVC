@@ -17,28 +17,18 @@ namespace CuaHangDungCuYTe.Controllers
         [HttpGet]
         public ActionResult Login()
         {
-<<<<<<< HEAD
-=======
-            Session["Login"] = false;
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
             return PartialView();
         }
 
         [HttpPost]
         public ActionResult XuLyLogin(LoginViewModels formData)
         {
-<<<<<<< HEAD
-            var acc = dbcontext.Accounts.FirstOrDefault(a => a.Email == formData.email && a.Password == formData.passWord);
-=======
-            var acc = dbcontext.Accounts.FirstOrDefault(a => a.email == formData.email && a.passWord == formData.passWord);
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
             if (acc == null)
             {
                 return Json(new { success = false, message = "Tài khoản hoặc mật khẩu không đúng!" });
             }
             else
             {
-<<<<<<< HEAD
                 var ktraRole = acc.Role;
                 Session["Login"] = true;
                 Session["Username"] = formData.email;
@@ -57,22 +47,13 @@ namespace CuaHangDungCuYTe.Controllers
                 }
                 Session["cartSession"] = cartSession;
 
-=======
-                var ktraRole = acc.role;
-                Session["Login"] = true;
-                Session["Username"] = formData.email;
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
                 if (ktraRole == "User")
                 {
                     return Json(new { success = true, redirectUrl = Url.Action("Index", "User") });
                 }
                 else
                 {
-<<<<<<< HEAD
                     return Json(new { success = true, redirectUrl = Url.Action("Index", "Admin", new { area = "Admin" }) });
-=======
-                    return Json(new { success = true, redirectUrl = Url.Action("Index", "Admin") });
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
                 }
             }
         }
@@ -81,10 +62,7 @@ namespace CuaHangDungCuYTe.Controllers
         {
             Session["Login"] = false;
             Session["Username"] = null;
-<<<<<<< HEAD
             Session.Clear();
-=======
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
             return RedirectToAction("Index", "User");
         }
 
@@ -100,11 +78,7 @@ namespace CuaHangDungCuYTe.Controllers
 
         public ActionResult XuLyRegister(LoginViewModels formData)
         {
-<<<<<<< HEAD
             var acc = dbcontext.Accounts.FirstOrDefault(a => a.Email == formData.email);
-=======
-            var acc = dbcontext.Accounts.FirstOrDefault(a => a.email == formData.email);
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
             if (acc != null)
             {
                 return Json(new { success = false, message = "Tài khoản này đã tồn tại!" });
@@ -119,7 +93,7 @@ namespace CuaHangDungCuYTe.Controllers
                 {
                     Session["Login"] = true;
                     Session["Username"] = formData.email;
-<<<<<<< HEAD
+
                     var item = new Account
                     {
                         Email = formData.email,
@@ -130,14 +104,6 @@ namespace CuaHangDungCuYTe.Controllers
                         Address = "",
                         Role = "User"
                     };
-=======
-                    var item = new Account();
-                    item.email = formData.email;
-                    item.passWord = formData.passWord;
-                    item.fullName = "";
-                    item.sdt = "";
-                    item.role = "User";
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
                     dbcontext.Accounts.Add(item);
                     dbcontext.SaveChanges();
                     return Json(new { success = true, redirectUrl = Url.Action("Index", "User") });

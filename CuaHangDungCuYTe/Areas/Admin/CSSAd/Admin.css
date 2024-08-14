@@ -337,7 +337,6 @@ page{
     /* overflow: auto; */
 }
 
-<<<<<<< HEAD
 .edit a{
     display: flex;
     text-decoration: none;
@@ -350,8 +349,6 @@ page{
     border-radius: 3px;
 }
 
-=======
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
 .order-content-box, .product-content-box, .account-content-box, .setting-content-box{
     padding: 20px;
     border: 1px solid #e6e2e7;
@@ -364,7 +361,6 @@ page{
     color: #1375d1;
 }
 
-<<<<<<< HEAD
 .order-content-box >a{
     position: absolute;
     display: flex;
@@ -383,20 +379,11 @@ page{
     padding: 40px 40px;
     width: 90%;
     position: relative;
-=======
-.setting-content-box form{
-    padding: 40px 40px;
-    width: 500px;
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
 }
 
 .setting-content-box form input{
     height: 30px;
-<<<<<<< HEAD
     width: 45%;
-=======
-    width: 100%;
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     font-size: 14px;
     display: block;
     margin: 5px 0px 10px 0px;
@@ -405,7 +392,6 @@ page{
     padding-left: 10px;
 }
 
-<<<<<<< HEAD
 .setting-content-box form .setting-info{
     position: absolute;
     right: 5rem;
@@ -438,12 +424,6 @@ page{
     width: 100px;
     margin-top: 50px;
     margin-left: 54rem;
-=======
-.setting-content-box form input.dmk{
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 250px;
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     color: #fff;
     background-color: #1375d1;
 }
@@ -512,21 +492,13 @@ td.edit{
     align-items: center;
 }
 
-<<<<<<< HEAD
 td.edit button{
-=======
-td.edit input{
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     text-align: center;
     border: none;
     border-radius: 3px;
 }
 
-<<<<<<< HEAD
 td.edit .ed{
-=======
-td.edit input.ed{
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     cursor: pointer;
     width: 70px;
     height: 25px;
@@ -534,11 +506,7 @@ td.edit input.ed{
     color: #f1f1f1;
 }
 
-<<<<<<< HEAD
 td.edit .de{
-=======
-td.edit input.de{
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     cursor: pointer;
     width: 70px;
     height: 25px;
@@ -596,18 +564,10 @@ td.edit input.de{
 
 .add-pd-content, .edit-pd-content{
     width: 400px;
-<<<<<<< HEAD
     height: 550px;
     background-color: #fff;
     border-radius: 5px;
     /* box-shadow: 0 20px 20px #ddd; */
-=======
-    height: 510px;
-    background-color: #fff;
-    border-radius: 5px;
-    /* box-shadow: 0 20px 20px #ddd; */
-    margin: -200px 0px 0px -300px;
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
 }
 
 .add-pd-content h2, .edit-pd-content h2{
