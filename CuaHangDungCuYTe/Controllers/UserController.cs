@@ -108,6 +108,7 @@ namespace CuaHangDungCuYTe.Controllers
 
             return PartialView(cart);
         }
+<<<<<<< HEAD
 
 
         public ActionResult RemoveCartItem(string productId)
@@ -245,5 +246,7 @@ namespace CuaHangDungCuYTe.Controllers
             var productTT = dbcontext.Products.Where(p => p.Maloai == mloai).Take(4).ToList();
             return PartialView(productTT);
         }
+=======
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     }
 }

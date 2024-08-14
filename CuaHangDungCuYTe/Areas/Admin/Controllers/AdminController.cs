@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -7,6 +8,12 @@ using System.Web.Mvc;
 using CuaHangDungCuYTe.Areas.Admin.AdminViewModels;
 using CuaHangDungCuYTe.Models;
 using Microsoft.SqlServer.Server;
+=======
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using CuaHangDungCuYTe.Models;
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
 
 namespace CuaHangDungCuYTe.Areas.Admin.Controllers
 {
@@ -17,6 +24,7 @@ namespace CuaHangDungCuYTe.Areas.Admin.Controllers
         private YteModels dbcontext = new YteModels();
         public ActionResult Index()
         {
+<<<<<<< HEAD
             if (Session["Login"] == null || (bool)Session["Login"] == false || (string)Session["Role"] != "Admin")
             {
                 return RedirectToAction("Index", "User", new { area = "" });
@@ -29,11 +37,16 @@ namespace CuaHangDungCuYTe.Areas.Admin.Controllers
             ViewBag.TotalProduct = totalProduct;
             ViewBag.TotalOrder = totalOrder;
             ViewBag.TotalUser = totalUser;
+=======
+            var login = Session["Login"] as string;
+            ViewBag.Login = login;
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
             return View();
         }
 
         public ActionResult Profiles()
         {
+<<<<<<< HEAD
             var email = Session["Username"] as string;
             var ktra = dbcontext.Accounts.Where(e => e.Email == email).FirstOrDefault();
             if(ktra != null)
@@ -282,6 +295,16 @@ namespace CuaHangDungCuYTe.Areas.Admin.Controllers
             }
             dbcontext.SaveChanges();
             return RedirectToAction("SettingsPage", "Admin");
+=======
+            var email = Session["Login"] as string;
+            var ktra = dbcontext.Accounts.Where(e => e.email == email).FirstOrDefault();
+            var fullName = "";
+            if(ktra != null)
+            {
+                fullName = ktra.fullName;
+            }
+            return PartialView(fullName);
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
         }
     }
 }

@@ -150,11 +150,14 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+<<<<<<< HEAD
     <Compile Include="Areas\Admin\AdminViewModels\ChitietHoaDonDisplayVM.cs" />
     <Compile Include="Areas\Admin\AdminViewModels\HangHoaVM.cs" />
     <Compile Include="Areas\Admin\AdminViewModels\HoaDonDisplayVM.cs" />
     <Compile Include="Areas\Admin\AdminViewModels\HoaDonVM.cs" />
     <Compile Include="Areas\Admin\AdminViewModels\TaiKhoanVM.cs" />
+=======
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -169,8 +172,11 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\YteModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="UserViewModels\CartItem.cs" />
     <Compile Include="UserViewModels\InfoOrderViewModels.cs" />
+=======
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     <Compile Include="UserViewModels\LoginViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +185,7 @@
     <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Profiles.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Areas\Admin\Views\Admin\OrderTB.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\ProductTB.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\CustomerTB.cshtml" />
@@ -187,6 +194,8 @@
     <Content Include="Areas\Admin\Views\Admin\OrderDetailPage.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\AccountsPage.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\SettingsPage.cshtml" />
+=======
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     <None Include="packages.config" />
     <Content Include="Views\Shares\_LayoutUser.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
@@ -195,9 +204,12 @@
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Login\Logged.cshtml" />
     <Content Include="Views\Login\Register.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\User\DonHang.cshtml" />
     <Content Include="Views\User\ProductsDetails.cshtml" />
     <Content Include="Views\User\SPTuongTu.cshtml" />
+=======
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

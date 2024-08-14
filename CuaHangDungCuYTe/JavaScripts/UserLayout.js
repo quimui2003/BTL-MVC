@@ -7,7 +7,10 @@ let closeLogin = document.querySelector('.close-login');
 let registerForm = document.querySelector('#register-btn');
 let closeRegister = document.querySelector('.close-login1');
 let registerForm1 = document.querySelector('#register');
+<<<<<<< HEAD
 let closepay = document.querySelector('.pay-close');
+=======
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
 
 document.querySelector('#menu-btn').onclick = () => {
     navbar.classList.toggle('active');
@@ -170,6 +173,7 @@ function closeRegisterForm() {
 }
 
 closeLogin.onclick = closeLoginForm;
+<<<<<<< HEAD
 closeRegister.onclick = closeRegisterForm;
 
 // Đóng/Mở thông tin đặt hàng
@@ -197,3 +201,6 @@ function orderInfo(email, fullname, address, sdt) {
 closepay.addEventListener('click', function () {
     document.querySelector('.pay-box').style.display = "none";
 });
+=======
+closeRegister.onclick = closeRegisterForm;
+>>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
