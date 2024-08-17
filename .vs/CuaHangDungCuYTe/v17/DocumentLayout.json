@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|D:\\Mui\\MVC\\CuaHangDungCuYTe\\cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|d:\\mui\\mvc\\cuahangdungcuyte\\cuahangdungcuyte\\areas\\admin\\views\\admin\\profiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8DCC47A-1651-4008-959A-3BC70466AECB}|CuaHangDungCuYTe\\CuaHangDungCuYTe.csproj|solutionrelative:cuahangdungcuyte\\areas\\admin\\views\\admin\\profiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +66,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profiles.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Profiles.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Profiles.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Profiles.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Profiles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T11:45:29.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T11:44:49.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAO8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T11:14:11.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CuaHangDungCuYTe\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T11:13:23.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
               "ToolTip": "D:\\Mui\\MVC\\CuaHangDungCuYTe\\CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "CuaHangDungCuYTe\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAACMAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-17T11:12:07.182Z",
               "EditorCaption": ""
