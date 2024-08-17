@@ -1,13 +1,9 @@
 ﻿@if (Session["Login"] != null && (bool)Session["Login"] == true)
 {
     <input type="submit" id="info-btn" value="Thông tin">
-<<<<<<< HEAD
     <form action="@Url.Action("Logout", "Login", new { area = "" })" method="get">
         <input type="submit" id="logout-btn" value="Đăng xuất">
     </form>
-=======
-    <input type="submit" id="logout-btn" value="Đăng xuất">
->>>>>>> 7ad3da394e5fb84f81242f84ff98bf1476fbeabf
 }
 else
 {
