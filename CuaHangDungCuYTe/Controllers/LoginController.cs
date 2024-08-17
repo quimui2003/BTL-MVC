@@ -23,6 +23,8 @@ namespace CuaHangDungCuYTe.Controllers
         [HttpPost]
         public ActionResult XuLyLogin(LoginViewModels formData)
         {
+            var acc = dbcontext.Accounts.FirstOrDefault(a => a.Email == formData.email && a.Password == formData.passWord);
+
             if (acc == null)
             {
                 return Json(new { success = false, message = "Tài khoản hoặc mật khẩu không đúng!" });
